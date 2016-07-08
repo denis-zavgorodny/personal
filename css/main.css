@@ -20,7 +20,12 @@ a:hover {
 	background: #e6d75f;
 	color: #2c2d32;
 }
-
+.personal-name {
+    font-size: 60px;
+    font-size: 5vw;
+	padding: 0 0 3% 0;
+	letter-spacing: 0.1vw;
+}
 .personal-avatar {
 	width: 12%;
 	max-width: 300px;
@@ -46,6 +51,7 @@ a:hover {
 	white-space: nowrap;
 	text-align: center;
 	width: 100%;
+	padding: 0 0 5%;
 }
 .personal-options {
 	font-size: 16px;
@@ -85,6 +91,10 @@ a:hover {
 	.personal {
 		width: 100%;
 	}
+	.personal-name { 
+		font-size: 8vmin;
+		padding-bottom: 10%;
+	}
 	.personal-avatar {
 		width: 50%;
 		max-width: 300px;
@@ -122,5 +132,9 @@ a:hover {
 	}
 	.personal {
 		padding: 5% 0 0;
+	}
+	.social-block,
+	.personal-options {
+		font-size: 5vmin;
 	}
 }
