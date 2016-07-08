@@ -112,3 +112,15 @@ a:hover {
 		padding: 0 1%;
 	}
 }
+@media screen and (orientation: landscape) {
+	body {
+		height: auto;
+		position: relative;
+	}
+	.social-block {
+		position: static;
+	}
+	.personal {
+		padding: 5% 0 0;
+	}
+}
