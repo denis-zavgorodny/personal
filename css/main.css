@@ -112,7 +112,7 @@ a:hover {
 		padding: 0 1%;
 	}
 }
-@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) and (max-device-width: 776px) {
 	body {
 		height: auto;
 		position: relative;
